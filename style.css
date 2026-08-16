@@ -97,31 +97,6 @@ section {
   overflow: hidden;
 }
 
-.hero:before,
-.hero:after {
-  content: "";
-  position: absolute;
-  border: 0;
-  pointer-events: none;
-}
-
-.hero:before {
-  width: 260px;
-  height: 260px;
-  border-radius: 50%;
-  background: var(--blue);
-  right: -130px;
-  top: 90px;
-}
-
-.hero:after {
-  width: 210px;
-  height: 210px;
-  border-radius: 50%;
-  background: var(--yellow);
-  right: 30px;
-  bottom: -120px;
-}
 
 .eyebrow {
   font-size: 11px;
@@ -194,29 +169,6 @@ section {
   display: grid;
   place-items: center;
 }
-
-.hero-visual:before {
-  content: "";
-  position: absolute;
-  width: 340px;
-  height: 340px;
-  border-radius: 50%;
-  background: var(--blue);
-  left: 20px;
-  top: 60px;
-}
-
-.hero-visual:after {
-  content: "";
-  position: absolute;
-  width: 230px;
-  height: 230px;
-  border-radius: 50%;
-  background: var(--yellow);
-  right: 5px;
-  bottom: 45px;
-}
-
 
 
 .hero h1 span {
@@ -657,15 +609,7 @@ footer {
     letter-spacing: -4px;
   }
 
-  .hero-visual:before {
-    width: 260px;
-    height: 260px;
-  }
-
-  .hero-visual:after {
-    width: 180px;
-    height: 180px;
-  }
+  
 
   .hero-card {
     width: 90%;
