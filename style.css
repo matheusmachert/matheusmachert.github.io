@@ -397,6 +397,10 @@ section {
   font-size: 14px;
   max-width: 500px;
 }
+.project-infoTT > p {
+  color: #FEFEFF;
+  font-size: 14px;
+  max-width: 500px;}
 
 .project-dark .project-info > p {
   color: #b9b9b9;
