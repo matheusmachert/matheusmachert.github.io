@@ -217,27 +217,7 @@ section {
   bottom: 45px;
 }
 
-.orb {
-  position: absolute;
-  border-radius: 50%;
-  z-index: 1;
-}
 
-.orb-yellow {
-  width: 180px;
-  height: 180px;
-  background: #f2f32c;
-  right: 70px;
-  top: 15px;
-}
-
-.orb-blue {
-  width: 145px;
-  height: 145px;
-  background: #8bcfd8;
-  left: 20px;
-  bottom: 0;
-}
 
 .hero h1 span {
   color: #412AFF;
