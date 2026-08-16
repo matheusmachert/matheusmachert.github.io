@@ -9,6 +9,7 @@
   --yellow: #e7ea39;
   --blue: #9ed8df;
   --blue-dark: #173e43;
+  --purple: #6B25A3;
   --soft: #f5f5f2;
   --max: 1180px;
 }
@@ -360,7 +361,7 @@ section {
   overflow: hidden;
 }
 
-.project-dark {
+.project-purple {
   background: #6B25A3;
   color: white;
 }
