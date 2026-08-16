@@ -364,6 +364,7 @@ section {
 .project-purple {
   background: #6b25a3;
   color: white;
+  
 }
 
 .project-blue {
@@ -413,8 +414,8 @@ section {
   font-size: 12px;
 }
 
-.project-dark ul {
-  color: #bdbdbd;
+.project-purple ul {
+  color: #FFFFFF;
 }
 
 .project li {
