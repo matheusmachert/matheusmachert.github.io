@@ -356,37 +356,57 @@ section {
 
 .project {
   display: grid;
-  grid-template-columns: .9fr 1.1fr;
-  gap: 50px;
+  grid-template-columns: minmax(500px, 1fr) 600px;
+  gap: 30px;
   align-items: center;
+
   padding: 55px;
   background: #f4f4f1;
   border-radius: 28px;
   overflow: hidden;
 }
 
+
+
 .project-purple {
-  background: #6B25A3;
+  background: linear-gradient(
+    135deg,
+    #9f25a3,
+    #f99dfc
+  );
+
   color: white;
 }
 
+
 .project-orange {
-  background: #FFBF5A;
-  color: #161616;
+  background: linear-gradient(
+    135deg,
+    #ff853e,
+    #f0c59e
+  );
 }
 
 .project-cyan {
-  background: #45D3FF;
-  color: #161616;
+  background: linear-gradient(
+    135deg,
+    #45a5ff,
+    #6de2ff
+  ); 
 }
+
 
 .project-teal {
-  background: #3B6A6B;
+  background: linear-gradient(
+    135deg,
+    #3B6A6B,
+    #71c5c7
+  );
+
   color: white;
 }
-
 .project-red {
-  background: #F05757;
+  background: linear-gradient(135deg, #F05757, #45a5ff );
   color: white;
 }
 
@@ -471,12 +491,15 @@ section {
 ========================= */
 
 .flow {
-  margin-top: 80px;
+  margin-top: 40px;
+
   display: flex;
   align-items: center;
+
   gap: 12px;
-  width: 100%;
+
   flex-wrap: nowrap;
+  width: 100%;
 }
 
 .flow-box {
@@ -497,7 +520,7 @@ section {
   background: rgba(255,255,255,.12);
   border: 1px solid currentColor;
 
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.4;
 
   flex: 0 0 auto;
@@ -511,14 +534,19 @@ section {
 }
 
 .project-image {
+  width: 600px;
+  min-width: 600px;
+
   display: block;
   border-radius: 12px;
   overflow: hidden;
+
   box-shadow: 0 24px 55px rgba(0,0,0,.16);
   transition: transform .25s ease;
-  background: white;
-}
 
+  background: white;
+  align-self: center;
+}
 .project-image:hover {
   transform: translateY(-5px);
 }
