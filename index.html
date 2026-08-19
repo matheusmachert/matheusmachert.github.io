@@ -118,21 +118,21 @@
             <div class="project-meta"><span>01</span><span>POWER APPS · SHAREPOINT</span></div>
             <h3>Aplicativo de registro e<br>movimentação de brindes</h3>
             <p>
-              Sistema desenvolvido para registrar atualizações, movimentações de brindes através de um banco de dados do Sharepoint. O sistema é fundamental
-              para unificar a operação de processos de itens e alimentação automática do sharepoint no Power BI.
+              Sistema desenvolvido para registrar atualizações, movimentações de brindes através de um, ou mais de um banco de dados do Sharepoint. O sistema é fundamental
+              para unificar a operação de processos de itens e alimentação automática de listas do Sharepoint no Power BI.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
-              <li>Registra atualizações utilizando sintaxes de soma, subtração e variáveis</li>
-              <li>Consulta e registros de itens</li>
-              <li>Base operacional para análise no Power BI</li>
+              <li>Registrar atualizações automáticas com sintaxes de soma, subtração e variáveis</li>
+              <li>Consultar de forma intuitiva registros de itens de uma lista do Sharepoint</li>
+              <li>Registrar de forma dinâmica novos itens em um, ou mais de um banco de dados</li>
             </ul>
 
             <div class="flow">
-              <div class="flow-box">Usuário registra a movimentação no aplicativo</div>
+              <div class="flow-box">Usuário registra a atualização no aplicativo</div>
               <div class="flow-arrow">→</div>
-              <div class="flow-box">Power Apps atualiza diretamente a lista do SharePoint</div>
+              <div class="flow-box">Power Apps atualiza diretamente as listas do SharePoint</div>
             </div>
           </div>
 
@@ -147,17 +147,19 @@
             <div class="project-meta"><span>02</span><span>POWER APPS · SHAREPOINT</span></div>
             <h3>Aplicativo para<br>inserção de fotos</h3>
             <p>
-              Sistema desenvolvido para inserção de fotos de novos colaboradores, contendo login e demais informações. A vantagem é realizar registros no Sharepoint de forma mais dinâmica.
+              Sistema desenvolvido para inserção de fotos de novos colaboradores, contendo login e demais informações.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
-              <li>Registra atualizações de anexos e textos, utilizando sintaxes de caixas de combinações e submit forms</li>
+              <li>Registrar atualizações de anexos e textos, utilizando sintaxes de caixas de combinações e submit forms</li>
               <li>Consulta e registros de novos colaboradores</li>
+              <li>Inserção dinâmica de PNGs e JPGs em um, ou mais de um banco de dados</li>
+              <li>Disparo de gatilhos para automação</li>
             </ul>
 
             <div class="flow">
-              <div class="flow-box">Usuário insere cadastro no aplicativo</div>
+              <div class="flow-box">Usuário insere login e foto no aplicativo</div>
               <div class="flow-arrow">→</div>
               <div class="flow-box">Power Apps cadastra diretamente na lista do SharePoint</div>
             </div>
@@ -172,22 +174,29 @@
         <article class="project project-purple">
           <div class="project-info">
             <div class="project-meta"><span>03</span><span>POWER APPS · SHAREPOINT · POWER AUTOMATE · PYTHON</span></div>
-            <h3>Sistema de envio de<br>imagens editadas</h3>
+            <h3>Sistema de envio de<br>fotos editadas</h3>
             <p>
-              Sistema integrado para organizar o recebimento, processamento e disponibilização de imagens editadas, conectando interface, automações e processamento em Python.
+              Sistema integrado para organizar o recebimento, processamento e disponibilização das fotos editadas dos novos colaboradores, conectando interface, Power Automate e processamento em Python.
+              Uma vez que o aplicativo de cima foi feito para envio das fotos, este foi feito para aprovação e envio via outlook das fotos já tratadas e editadas.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
               <li>Centralização do processo de envio de imagens</li>
-              <li>Automação das etapas de processamento</li>
+              <li>Automação das etapas de edição, aprovação e envio do anexo para o colaborador</li>
               <li>Integração entre Power Apps, Power Automate e Python</li>
             </ul>
 
             <div class="flow">
-              <div class="flow-box">Usuário envia a imagem pelo Power Apps</div>
+              <div class="flow-box">Usuário registra a imagem pelo aplicativo anterior</div>
               <div class="flow-arrow">→</div>
-              <div class="flow-box">Power Automate aciona o processamento em Python</div>
+              <div class="flow-box">Power Automate aciona o gatilho de processamento em Python</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-box">Python salva foto editada e o Automate gera registro no Sharepoint</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-box">Power Apps consome Sharepoint e disponibiliza visualização para envio</div>
+              <div class="flow-arrow">→</div>
+               <div class="flow-box">Caso a edição não esteja como o esperado, existe opção de reprocessar o fluxo com outro script de edição em Python</div>
             </div>
           </div>
 
@@ -202,14 +211,14 @@
             <div class="project-meta"><span>04</span><span>POWER BI · SHAREPOINT</span></div>
             <h3>Dashboard de movimentação<br>e visualização de estoque</h3>
             <p>
-              Dashboard desenvolvido para consolidar informações de movimentação de estoque e transformar os registros operacionais em uma visualização mais clara para acompanhamento.
+              Dashboard desenvolvido para consolidar informações de registros de itens, movimentações de estoque e transformar os registros operacionais em uma visualização mais clara para acompanhamento.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
-              <li>Acompanhamento de entradas e saídas</li>
-              <li>Visualização de movimentações</li>
-              <li>Consolidação de dados do estoque</li>
+              <li>Acompanhamento das movimentações registradas e visualização clara de quantidade e imagens</li>
+              <li>Modelagem de dados e relacionamentos muitos-para-muitos, utilizando tabelas ponte para associar itens a múltiplas áreas </li>
+              <li>Obter queries que necessitam de imagens no Dash</li>
             </ul>
           </div>
 
