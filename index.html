@@ -115,8 +115,8 @@
         <!-- 01 -->
         <article class="project project-purple">
           <div class="project-info">
-            <div class="project-meta"><span>01</span><span>POWER APPS · SHAREPOINT</span></div>
-            <h3>Aplicativo de registro e<br>movimentação de brindes</h3>
+            <div class="project-meta"><span>01</span><span>POWER APPS · SHAREPOINT · MICROSOFT LISTS</span></div>
+            <h3>Aplicativo de registro e<br>movimentação de itens</h3>
             <p>
               Sistema desenvolvido para registrar atualizações, movimentações de brindes através de um, ou mais de um banco de dados do Sharepoint. O sistema é fundamental
               para unificar a operação de processos de itens e alimentação automática de listas do Sharepoint no Power BI.
@@ -145,7 +145,7 @@
         <article class="project project-purple">
           <div class="project-info">
             <div class="project-meta"><span>02</span><span>POWER APPS · SHAREPOINT</span></div>
-            <h3>Aplicativo para<br>inserção de fotos</h3>
+            <h3>Aplicativo para<br>cadastro de fotos</h3>
             <p>
               Sistema desenvolvido para inserção de fotos de novos colaboradores, contendo login e demais informações.
             </p>
@@ -174,7 +174,7 @@
         <article class="project project-purple">
           <div class="project-info">
             <div class="project-meta"><span>03</span><span>POWER APPS · SHAREPOINT · POWER AUTOMATE · PYTHON</span></div>
-            <h3>Sistema de envio de<br>fotos editadas</h3>
+            <h3>Sistema de envio<br>de fotos editadas</h3>
             <p>
               Sistema integrado para organizar o recebimento, processamento e disponibilização das fotos editadas dos novos colaboradores, conectando interface, Power Automate e processamento em Python.
               Uma vez que o aplicativo de cima foi feito para envio das fotos, este foi feito para aprovação e envio via outlook das fotos já tratadas e editadas.
@@ -197,6 +197,8 @@
               <div class="flow-box">Python salva foto editada e gera registro no Sharepoint</div>
               <div class="flow-arrow">→</div>
               <div class="flow-box">Power Apps consome Sharepoint e disponibiliza visualização para envio</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-box">Caso não aprovada, a imagem é reeditada em novo script Python</div>
             </div>
           </div>
 
@@ -208,8 +210,8 @@
         <!-- 04 -->
         <article class="project project-orange">
           <div class="project-info">
-            <div class="project-meta"><span>04</span><span>POWER BI · SHAREPOINT</span></div>
-            <h3>Dashboard de movimentação<br>e visualização de estoque</h3>
+            <div class="project-meta"><span>04</span><span>POWER BI · SHAREPOINT · MICROSOFT LISTS</span></div>
+            <h3>Dashboard para controle de<br>estoque</h3>
             <p>
               Dashboard desenvolvido para consolidar informações de registros de itens, movimentações de estoque e transformar os registros operacionais em uma visualização mais clara para acompanhamento.
             </p>
@@ -218,7 +220,7 @@
             <ul>
               <li>Acompanhamento das movimentações registradas e visualização clara de quantidade e imagens</li>
               <li>Modelagem de dados e relacionamentos muitos-para-muitos, utilizando tabelas ponte para associar itens a múltiplas áreas </li>
-              <li>Obter queries que necessitam de imagens no Dash</li>
+              <li>Construção de funções no Power Query para converter URLs em imagens</li>
             </ul>
           </div>
 
@@ -231,16 +233,16 @@
         <article class="project project-orange">
           <div class="project-info">
             <div class="project-meta"><span>05</span><span>POWER BI · SHAREPOINT · EXCEL</span></div>
-            <h3>Dashboard de controle de<br>orçamento x requisições de custo</h3>
+            <h3>Dashboard de controle<br>financeiro</h3>
             <p>
-              Dashboard estruturado para acompanhar orçamento e requisições de custo, reunindo informações de diferentes bases em uma visão centralizada.
+              Dashboard estruturado para acompanhar orçamento e requisições de custo, reunindo informações de diferentes bases Excel e Sharepoint em uma visão centralizada.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
               <li>Comparação entre orçamento e requisições</li>
-              <li>Consolidação de informações financeiras</li>
-              <li>Acompanhamento de valores e status</li>
+              <li>Consolidação de informações financeiras de diferentes bases</li>
+              <li>Construção de relacionamentos sem ID</li>
             </ul>
           </div>
 
@@ -253,16 +255,16 @@
         <article class="project project-orange">
           <div class="project-info">
             <div class="project-meta"><span>06</span><span>POWER BI · EXCEL</span></div>
-            <h3>Dashboard de qualidade<br>de caixa de email compartilhada</h3>
+            <h3>Dashboard de gestão de<br>caixa de email</h3>
             <p>
-              Dashboard criado para acompanhar a qualidade e o comportamento das demandas recebidas em uma caixa de email compartilhada.
+              Dashboard criado para acompanhar a qualidade e o comportamento das casos internos recebidos em uma caixa de email compartilhada.
             </p>
 
             <div class="project-useful">ÚTIL</div>
             <ul>
-              <li>Acompanhamento de indicadores de qualidade</li>
-              <li>Organização e análise das demandas</li>
-              <li>Visualização de dados operacionais</li>
+              <li>Construção de indicadores gráficos de qualidade</li>
+              <li>Organização e acompanhamento de casos</li>
+              <li>Acompanhamento de recorrências e insights à longo prazo</li>
             </ul>
           </div>
 
@@ -280,17 +282,19 @@
               Dashboard alimentado por dados da API 2clix para acompanhar indicadores de monitoria e qualidade, transformando dados da operação em informações para análise.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
-              <li>Extração de dados via API</li>
-              <li>Monitoramento de indicadores</li>
-              <li>Acompanhamento de qualidade</li>
+              <li>Extração de dados via API como um todo</li>
+              <li>Construção da sintaxe para diferentes endpoints</li>
+              <li>Atualização automática de token no editor avançado do Power Query</li>
             </ul>
 
             <div class="flow">
-              <div class="flow-box">2clix API disponibiliza os dados</div>
+              <div class="flow-box">2clix disponibiliza os endpoints para cada monitoria</div>
               <div class="flow-arrow">→</div>
-              <div class="flow-box">Power BI trata e apresenta os indicadores</div>
+              <div class="flow-box">É construído sintaxe em linguagem M com login e endpoints</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-box">É obtido json e convertido em tabela no BI</div>
             </div>
           </div>
 
@@ -302,23 +306,26 @@
         <!-- 08 -->
         <article class="project project-cyan">
           <div class="project-info">
-            <div class="project-meta"><span>08</span><span>POWER AUTOMATE · EXCEL · SHAREPOINT</span></div>
-            <h3>Automatização de lista<br>no SharePoint via Excel</h3>
+            <div class="project-meta"><span>08</span><span>POWER AUTOMATE · EXCEL · SHAREPOINT · MICROSOFT LISTS</span></div>
+            <h3>Automatização de Microsoft Lists<br>via Excel</h3>
             <p>
-              Automação criada para utilizar informações estruturadas em Excel na atualização de uma lista do SharePoint, reduzindo atividades manuais e repetitivas.
+              Automação criada para utilizar informações recebidas em Excel na atualização de uma lista do SharePoint, excluindo e inserindo milhares de itens automaticamente a cada Excel recebido.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
-              <li>Leitura de dados estruturados no Excel</li>
-              <li>Atualização automatizada de listas</li>
-              <li>Redução de atividades manuais</li>
+              <li>Exclusão massiva de itens em listas do Sharepoint</li>
+              <li>Atualização automatizada de listas com milhares de linhas</li>
+              <li>Filtragem automática de itens inseridos de acordo com o solicitado</li>
+              <li>For obrigatório uma estrutura de dados atualizada no Microsoft Lists</li>
             </ul>
 
             <div class="flow">
-              <div class="flow-box">Excel recebe a base atualizada</div>
+              <div class="flow-box">É recebido arquivo Excel em email</div>
               <div class="flow-arrow">→</div>
-              <div class="flow-box">Power Automate atualiza a lista do SharePoint</div>
+              <div class="flow-box">Power Automate detecta Excel e inicia fluxo</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-box">Linhas antigas são excluidas e linhas novas são inseridas</div>
             </div>
           </div>
 
@@ -333,20 +340,22 @@
             <div class="project-meta"><span>09</span><span>POWER AUTOMATE · EXCEL · TEAMS</span></div>
             <h3>Disparo automatizado de<br>cartões e lembretes via Teams</h3>
             <p>
-              Automação para transformar informações de uma base em comunicações e lembretes enviados automaticamente pelo Microsoft Teams.
+              Automação para transformar informações de uma base em comunicações personalizadas e lembretes enviados automaticamente ou de forma programada pelo Microsoft Teams.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
-              <li>Disparo automático de lembretes</li>
-              <li>Padronização das comunicações</li>
-              <li>Integração entre Excel e Teams</li>
+              <li>Disparo automático ou programado de lembretes personalizados</li>
+              <li>Padronização das comunicações e inserção de imagens em html</li>
+              <li>Integração entre banco de dados e Teams</li>
             </ul>
 
             <div class="flow">
-              <div class="flow-box">Excel fornece os dados do lembrete</div>
+              <div class="flow-box">Excel fornece as colunas e linhas do lembrete/cartão</div>
               <div class="flow-arrow">→</div>
-              <div class="flow-box">Power Automate dispara o cartão no Teams</div>
+              <div class="flow-box">Power Automate obtem login do colaborador e informações correspondentes</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-box">Automate envia através do bot do Teams</div>
             </div>
           </div>
 
@@ -359,22 +368,24 @@
         <article class="project project-cyan">
           <div class="project-info">
             <div class="project-meta"><span>10</span><span>POWER AUTOMATE · EXCEL · SHAREPOINT · OUTLOOK</span></div>
-            <h3>Disparo automatizado de<br>invites personalizados via email</h3>
+            <h3>Disparo automatizado<br>de imagens personalizadas<br>via email</h3>
             <p>
-              Automação desenvolvida para gerar e disparar convites personalizados a partir de informações estruturadas, reduzindo a necessidade de criação manual.
+              Automação desenvolvida para disparar anexos e imagens personalizadas atendendo a diversas condições a partir de informações estruturadas e comparações de matrizes, reduzindo a necessidade de criação e envio manual.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
-              <li>Personalização automática de mensagens</li>
-              <li>Disparo em escala</li>
-              <li>Integração com bases e Outlook</li>
+              <li>Envio de imagem correspondente ao colaborador via email</li>
+              <li>Disparo em escala atendendo a diversos filtros e critérios</li>
+              <li>Obter itens e arquivos e relacioná-los a partir de diferentes bancos de dados</li>
             </ul>
 
             <div class="flow">
-              <div class="flow-box">Excel/SharePoint fornece os dados</div>
+              <div class="flow-box">Excel/SharePoint fornece os dados do colaborador</div>
               <div class="flow-arrow">→</div>
-              <div class="flow-box">Power Automate envia o invite personalizado pelo Outlook</div>
+              <div class="flow-box">Automate compara colaborador e imagem através de ID</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-box">Automade envia email para o colaborador e sua respectiva imagem/arquivo</div>
             </div>
           </div>
 
@@ -387,9 +398,9 @@
         <article class="project project-cyan">
           <div class="project-info">
             <div class="project-meta"><span>11</span><span>POWER AUTOMATE · SHAREPOINT · OUTLOOK</span></div>
-            <h3>Atualização de itens e anexos<br>no Microsoft Lists via email</h3>
+            <h3>Atualização de<br>NF e FAT no<br>Microsoft Lists via Outlook</h3>
             <p>
-              Automação para interpretar informações recebidas por email e atualizar itens e anexos em uma estrutura do Microsoft Lists, centralizando o processo.
+              Automação para interpretar informações recebidas por email e atualizar documentos financeiros em uma estrutura do Microsoft Lists, centralizando o processo e utilizando IA para leitura do documento.
             </p>
 
             <div class="project-useful">ÚTIL</div>
@@ -415,7 +426,7 @@
         <article class="project project-teal">
           <div class="project-info">
             <div class="project-meta"><span>12</span><span>PYTHON · WATCHDOG · REMBG · PILLOW</span></div>
-            <h3>Edição automatizada de fotos<br>corporativas de executivos</h3>
+            <h3>Edição automatizada de fotos</h3>
             <p>
               Sistema desenvolvido para automatizar o tratamento de grandes volumes de fotografias corporativas, reduzindo etapas manuais no processo de edição.
             </p>
@@ -473,7 +484,7 @@
         <article class="project project-teal">
           <div class="project-info">
             <div class="project-meta"><span>14</span><span>PYTHON · PANDAS · PILLOW</span></div>
-            <h3>Edição de texto massiva<br>e automatizada para invites</h3>
+            <h3>Edição de texto massiva<br> para invites</h3>
             <p>
               Automação criada para realizar alterações padronizadas em grandes volumes de informações utilizadas na produção de invites, reduzindo a edição manual.
             </p>
