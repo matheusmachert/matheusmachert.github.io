@@ -509,6 +509,10 @@ section {
 
   white-space: normal;
   overflow-wrap: break-word;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
 
 }
 .flow-arrow {
