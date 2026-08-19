@@ -519,12 +519,9 @@ section {
 }
 
 .project-image {
-  display: block;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 24px 55px rgba(0,0,0,.16);
-  transition: transform .25s ease;
-  background: white;
+  align-self: start;
+  width: 100%;
+
 }
 
 .project-image:hover {
