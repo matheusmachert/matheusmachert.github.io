@@ -363,7 +363,6 @@ section {
   background: #f4f4f1;
   border-radius: 28px;
   overflow: hidden;
-  position: relative;
 }
 
 .project-purple {
@@ -521,12 +520,6 @@ section {
 
 .project-image {
   display: block;
-  width: calc(100% - 50px);
-  position: absolute;
-  right: 55px;
-  top: 50%;
-  transform: translateY(-50%);
-
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 24px 55px rgba(0,0,0,.16);
@@ -536,10 +529,6 @@ section {
 
 .project-image:hover {
   transform: translateY(-5px);
-}
-
-.project > .project-image {
-  grid-column: 2;
 }
 
 .project-image img {
