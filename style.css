@@ -480,16 +480,23 @@ section {
 
 .flow-box {
   min-height: 70px;
-  height: 70px;
-  width: max-content;
-  max-width: 100%;
-  padding: 0 25px;
+  height: auto;
+  width: fit-content;
+  max-width: 260px;
+  min-width: 100px;
+  padding: 12px 18px;
   display: flex;
   align-items: center;
   justify-content: center;
-  white-space: nowrap;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
   border-radius: 12px;
-  background: rgba(255,255,255,.12)
+  background: rgba(255,255,255,.12);
+  font-size: 14px;
+  line-height: 1.4;
+  border: 1px solid currentColor;
 }
 
 .flow-arrow {
@@ -686,9 +693,12 @@ footer {
   }
 
   .flow-box {
-    min-height: 82px;
-    padding: 10px 8px;
-    font-size: 9px;
+    min-height: 70px;
+    max-width: 220px;
+    min-width: 90px;
+    padding: 12px 14px;
+    font-size: 14px;
+    line-height: 1.4;
   }
 
   .flow-arrow {
