@@ -476,32 +476,22 @@ section {
   align-items: center;
   gap: 12px;
   width: 100%;
-  flex-wrap: wrap;
 }
 
 .flow-box {
-  min-height: 70px;
-  width: 180px;
-  max-width: 180px;
-  padding: 12px 18px;
-
+  flex: 1;
+  min-height: 72px;
+  padding: 12px 14px;
   display: flex;
   align-items: center;
   justify-content: center;
-
   text-align: center;
-  white-space: normal;
-  overflow-wrap: break-word;
-  word-break: normal;
-
-  border-radius: 12px;
-  background: rgba(255,255,255,.12);
   border: 1px solid currentColor;
-
+  border-radius: 14px;
   font-size: 10px;
-  line-height: 1.4;
-
-  flex: 0 0 180px;
+  line-height: 1.35;
+  font-weight: 700;
+  background: rgba(255,255,255,.12);
 }
 .flow-arrow {
   flex: 0 0 auto;
