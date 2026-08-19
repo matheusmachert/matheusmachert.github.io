@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfólio Profissional - Matheus Machert">
-  <title>Portfólio Profissional - Matheus Machert</title>
+  <title>Portfólio Profissional - Matheus Machert de Lima</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,7 +23,7 @@
       <div class="hero-copy">
         <p class="eyebrow">PORTFÓLIO PROFISSIONAL</p>
 
-        <h1>Matheus<br><span>Machert</span></h1>
+        <h1>Matheus<br><span>Machert</span><br>de Lima</h1>
 
         <p class="hero-subtitle">
           Projetos para otimização, performance, análise,
@@ -53,11 +53,11 @@
       <div class="about-content">
         <p class="lead">
           Minha experiência combina comunicação, análise e tecnologia. Recentemente em minha atuação profissional, passei a assumir iniciativas
-          que vão além do suporte e envolvem a construção de soluções
+          que vão além do suporte operacional e envolvem a construção de soluções
           para problemas reais da área.
         </p>
         <p>
-          A partir de processos como controle de estoque, fluxo de edição fotográfica,
+          A partir de processos como gerenciamento de estoques, fluxos de edição de imagens,
           relatórios e demandas recorrentes que consumiam tempo, comecei a estruturar aplicações,
           dashboards e automações para centralizar informações e reduzir atividades
           manuais.
@@ -80,7 +80,7 @@
         <article class="tech-card">
           <span class="tech-number">01</span>
           <h3>Power Apps</h3>
-          <p>Construção de aplicativos para facilitação de operações complexas e manuais e otimização de fluxos. c</p>
+          <p>Construção de aplicativos para facilitação de operações complexas e manuais e otimização de fluxos. </p>
         </article>
         <article class="tech-card">
           <span class="tech-number">02</span>
@@ -90,7 +90,7 @@
         <article class="tech-card">
           <span class="tech-number">03</span>
           <h3>Power BI</h3>
-          <p>Dashboards, indicadores, modelagens e tratamento de dados .</p>
+          <p>Dashboards, indicadores, relacionamentos, modelagens e tratamento de dados.</p>
         </article>
         <article class="tech-card">
           <span class="tech-number">04</span>
@@ -398,22 +398,24 @@
         <article class="project project-cyan">
           <div class="project-info">
             <div class="project-meta"><span>11</span><span>POWER AUTOMATE · SHAREPOINT · OUTLOOK</span></div>
-            <h3>Atualização de<br>NF e FAT no<br>Microsoft Lists via Outlook</h3>
+            <h3>Registro e<br>visualização de<br>documentos<br>Microsoft Lists via Outlook</h3>
             <p>
-              Automação para interpretar informações recebidas por email e atualizar documentos financeiros em uma estrutura do Microsoft Lists, centralizando o processo e utilizando IA para leitura do documento.
+              Automação para interpretar informações recebidas de documentos (NF e FAT) por email e atualizar/anexar dados em uma estrutura do Microsoft Lists, centralizando o processo e utilizando AI Builder para leitura de documentos.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
-              <li>Recebimento automatizado de informações</li>
+              <li>Recebimento e leitura de diferentes tipos de arquivo</li>
               <li>Atualização de itens e anexos</li>
-              <li>Integração entre Outlook e SharePoint</li>
+              <li>Registros automatizados de dados internos de documentos</li>
             </ul>
 
             <div class="flow">
               <div class="flow-box">Email recebe a informação e os anexos</div>
               <div class="flow-arrow">→</div>
-              <div class="flow-box">Power Automate atualiza itens no Microsoft Lists</div>
+              <div class="flow-box">Power Automate aciona IA para leitura de documento</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-box">Após obter informações, os dados e anexos são registrados no Lists</div>
             </div>
           </div>
 
@@ -428,22 +430,22 @@
             <div class="project-meta"><span>12</span><span>PYTHON · WATCHDOG · REMBG · PILLOW</span></div>
             <h3>Edição automatizada de fotos</h3>
             <p>
-              Sistema desenvolvido para automatizar o tratamento de grandes volumes de fotografias corporativas, reduzindo etapas manuais no processo de edição.
+              Sistema desenvolvido para automatizar o tratamento de grandes volumes de fotografias corporativas, seguindo padrões de rembg, blur, cores e sombras, reduzindo etapas manuais no processo de edição. Foi construído como base de processamento para o sistema em Power Apps - Power Automate.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
-              <li>Monitoramento automático de arquivos</li>
-              <li>Remoção automatizada de fundo</li>
-              <li>Processamento em lote de imagens</li>
+              <li>Monitoramento e gatilho automático de arquivos</li>
+              <li>Processamento e edição massiva de PNGs e JPGs</li>
+              <li>Automatizações mais complexas em relação ao Power Automate</li>
             </ul>
 
             <div class="flow">
-              <div class="flow-box">Watchdog identifica nova imagem</div>
+              <div class="flow-box">Watchdog identifica nova imagem recebida</div>
               <div class="flow-arrow">→</div>
               <div class="flow-box">Python processa com Rembg e Pillow</div>
                <div class="flow-arrow">→</div>
-              <div class="flow-box">Python processa com Rembg e Pillow</div>
+              <div class="flow-box">Imagem editada do colaborador é salva em pasta ou rede local</div>
             </div>
           </div>
 
@@ -458,20 +460,22 @@
             <div class="project-meta"><span>13</span><span>PYTHON · PYTHON-PPTX</span></div>
             <h3>Extração massiva automatizada<br>de slides PPTX</h3>
             <p>
-              Automação em Python para processar apresentações e extrair informações de slides em escala, facilitando tarefas que seriam repetitivas quando executadas manualmente.
+              Automação em Python para processar apresentações e extrair slides em escala, renomeando e fazendo upload dos slides de acordo com seus títulos. 
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
-              <li>Processamento de múltiplos arquivos</li>
-              <li>Extração automatizada de conteúdo</li>
-              <li>Redução de tarefas repetitivas</li>
+              <li>Extração e download de centenas de slides em PNG ou JPG</li>
+              <li>Disparos personalizados de slides</li>
+              <li>Automatização de sistemas e apresentações</li>
             </ul>
 
             <div class="flow">
-              <div class="flow-box">Pasta recebe apresentações PPTX</div>
+              <div class="flow-box">Scrip Python é disparado</div>
               <div class="flow-arrow">→</div>
-              <div class="flow-box">Python-pptx processa e extrai os slides</div>
+              <div class="flow-box">Python-pptx processa o pptx e extrai os slides</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-box">Slides são salvos como imagem em pasta ou rede local</div>
             </div>
           </div>
 
@@ -486,20 +490,22 @@
             <div class="project-meta"><span>14</span><span>PYTHON · PANDAS · PILLOW</span></div>
             <h3>Edição de texto massiva<br> para invites</h3>
             <p>
-              Automação criada para realizar alterações padronizadas em grandes volumes de informações utilizadas na produção de invites, reduzindo a edição manual.
+              Automação criada para realizar alterações padronizadas em grandes volumes de informações utilizadas na produção de invites, personalizando de acordo com nomes em um banco de dados, reduzindo a edição manual.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
-              <li>Tratamento de dados em massa</li>
-              <li>Padronização de textos e informações</li>
-              <li>Processamento automatizado de arquivos</li>
+              <li>Personalização massiva de textos em PNGs/JPGs</li>
+              <li>Padronização de bancos de dados</li>
+              <li>Automatização póstuma dos envios de forma personalizada </li>
             </ul>
 
             <div class="flow">
               <div class="flow-box">Pandas organiza os dados dos invites</div>
               <div class="flow-arrow">→</div>
               <div class="flow-box">Python e Pillow aplicam as alterações automaticamente</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-box">Imagem editada é salva em pasta ou rede local</div>
             </div>
           </div>
 
@@ -517,11 +523,11 @@
               Estruturação de um chatbot para facilitar consultas e interações dentro do Microsoft Teams, utilizando informações organizadas no ambiente corporativo.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
-              <li>Consulta de informações por conversa</li>
+              <li>Consulta de informações de uma base de dados por conversa</li>
               <li>Integração com ambiente corporativo</li>
-              <li>Centralização de respostas</li>
+              <li>Centralização de respostas e redução de consultas manuais</li>
             </ul>
           </div>
 
@@ -536,14 +542,14 @@
             <div class="project-meta"><span>16</span><span>COPILOT STUDIO · POWER AUTOMATE · TEAMS · SHAREPOINT</span></div>
             <h3>Criação de chatbot<br>via caixa de email</h3>
             <p>
-              Estruturação de uma solução conversacional conectada a automações e informações corporativas, permitindo transformar demandas recebidas por email em interações mais organizadas.
+              Desenvolvimento de agente integrado ao Power Automate e a informações internas, automatizando respostas para colaboradores em uma caixa de email.
             </p>
 
-            <div class="project-useful">ÚTIL</div>
+            <div class="project-useful">ÚTIL PARA:</div>
             <ul>
-              <li>Organização de demandas recebidas por email</li>
-              <li>Integração com automações</li>
-              <li>Consulta e tratamento de informações</li>
+              <li>Mapeamento preciso de casos recorrentes em uma caixa</li>
+              <li>Automatização do atendimento humano </li>
+              <li>Agilidade nas respostas e atendimento integral</li>
             </ul>
           </div>
 
@@ -557,21 +563,22 @@
 
     <section id="contato" class="contact">
       <div class="contact-inner">
-        <p class="eyebrow">04 / CONTATO</p>
-        <h2>Vamos conversar?</h2>
-        <p>Estou aberto a novas oportunidades, projetos e conexões profissionais.</p>
+        <p class="eyebrow1">04 / CONTATO</p>
+        <h2>Obrigado!</h2>
+        <p>Neste portfólio, compartilhei meus trabalhos e projetos mais importantes desta minha trajetória profissional, agradeço pela sua atenção. <br> Estou disponível para novas oportunidades, projetos e conexões profissionais.</p>
         <div class="contact-links">
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
-          <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
-          <a href="mailto:seuemail@email.com">E-mail ↗</a>
+          <a href="https://www.linkedin.com/in/matheus-machert-de-lima-b25683230/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="file:///C:/Users/Mathe/OneDrive/%C3%81rea%20de%20Trabalho/Matheus%20-%20CV/Portf%C3%B3lio%20Criativo%20Matheus%20Machert%20de%20Lima%20-%20Oficial.pdf" target="_blank" rel="noopener">Portfólio Acadêmico ↗</a>
+          <a href="matheusmachert124@gmail.com">Email ↗</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <span>MATHEUS LIMA</span>
-    <span>PORTFÓLIO · 2026</span>
+    <span>MATHEUS MACHERT< DE LIMA/span>
+    <span>Este portfólio foi construído em HTML e CSS </span>
+    <span>PORTFÓLIO PROFISSIONAL</span>
   </footer>
 
 </body>
