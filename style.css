@@ -494,7 +494,7 @@ section {
   word-break: normal;
   border-radius: 12px;
   background: rgba(255,255,255,.12);
-  font-size: 14px;
+  font-size: 10px;
   line-height: 1.4;
   border: 1px solid currentColor;
 }
