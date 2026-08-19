@@ -471,7 +471,7 @@ section {
 ========================= */
 
 .flow {
-  margin-top: 40px;
+  margin-top: 80px;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -480,10 +480,9 @@ section {
 }
 
 .flow-box {
-  min-height: 70px;
+  height: 70px;
   width: 180px;
   max-width: 260px;
-
   padding: 0 18px;
 
   display: flex;
@@ -491,7 +490,8 @@ section {
   justify-content: center;
 
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: break-word;
 
   border-radius: 12px;
   background: rgba(255,255,255,.12);
@@ -501,19 +501,7 @@ section {
   line-height: 1.4;
 
   flex: 0 0 auto;
-
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
   overflow: hidden;
-
-  white-space: normal;
-  overflow-wrap: break-word;
-  align-items: center;
-  justify-content: center;
-
-  text-align: center;
-
 }
 .flow-arrow {
   flex: 0 0 auto;
